@@ -1,9 +1,30 @@
+appdirs==1.4.4
 asgiref==3.2.10
+black @ git+git://github.com/psf/black@f311d82569b9595d85c08cc8fcf5250de525e7a0
+certifi==2020.6.20
+chardet==3.0.4
+click==7.1.2
+coverage==5.3
+coveralls==2.1.2
 dj-database-url==0.5.0
 -e git+https://github.com/django/django.git@292b3be698ef58aff9c215d62a444f66ead578c3#egg=Django
 django-heroku==0.3.1
+docopt==0.6.2
+flake8==3.8.4
 gunicorn==20.0.4
+idna==2.10
+mccabe==0.6.1
+mypy-extensions==0.4.3
+pathspec==0.8.0
 psycopg2==2.8.6
+pycodestyle==2.6.0
+pyflakes==2.2.0
 pytz==2020.1
+regex==2020.10.15
+requests==2.24.0
 sqlparse==0.3.1
+toml==0.10.1
+typed-ast==1.4.1
+typing-extensions==3.7.4.3
+urllib3==1.25.10
 whitenoise==5.2.0
