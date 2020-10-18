@@ -126,8 +126,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 STATIC_URL = "/static/"
 
-django_heroku.settings(locals())
-
+django_heroku.settings(locals(), test_runner=False)
 
 # extra security for deployment
 SECURE_HSTS_SECONDS = 3600
